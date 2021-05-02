@@ -6,41 +6,22 @@ comments: true
 author: sal
 ---
 
-> Jekyll + GitHub Pages 本以为很简单，但就是让我折腾了一天，还什么都没有学到，所以在这里来描述一些心里的感受。
+“物业经理上岗证”是个习惯上的称法，其全称是“物业管理从业人员岗位证书”。
 
-之前已经搭建过WordPress博客系统，可惜的是没有自己的域名，所以现在就开始尝试着使用GitHub Pages+Jekyll。虽然已经做了好长时间的程序员，但看了官方文档后还是不太明白这两个东西是怎么结合到一起来的，所以还是找到一些教程这才慢慢的上路了。
+这个证书是由全国城建培训中心培训并颁发的。目前来看是最好用的。求职、加薪一般会参考下，在物业项目投标中，也会用到。
 
-首先安装 Jekyll 如下所示：
+提醒大家注意，全国城建培训中心的唯一官网是：www.cjpx.com.cn。.
 
-```bash
-#安装 Ruby 和 Gem
-brew install ruby
-#安装 bundler jekyll
-gem install bundler jekyll
-```
+“物业经理上岗证”现在只有“全国城建”的单章，俗称“新证”。在2006年以前还有一个“双章”的证书，俗称“老证”。老证在2006年3月随着全国城建从国家建设部分离后，也随之停止了。后来，全国城建还支持颁发了一阵子，到2018年，彻底停止颁发了。
 
-其中 bundler 是一个 gem 包依赖管理工具，即在 Gemfile 中申明的包，使用 bundle install 即可。
+全国城建培训中心还有一个证书是“物业项目经理”，这个是适应新时代物业发展的需要，物业部门和职能细分后而新增的一个证书。目前看，在使用上，和物业经理差别不大。
 
-好了，现在不急着新建 GitHub Pages 仓库，一般我选择安装好一个博客框架后，然后就是去安装各种主题，这次我也是一样，但是这个 Jekyll 主题安装让我很是头疼。刚刚接触这个，对这个主题结构还不是很熟悉，还没有什么一键安装配置的界面，所以我在这里踩了很多的坑，这里我就总结一下我最后安装主题的方法(很笨)。
+大家要问了：是不是不还有一个物业管理师?
 
-去[JekyllTheme](http://jekyllthemes.org)找一个自己喜欢的主题，我比较喜欢简洁的，就是图片很少，居中文章标题的那种比如[Kiko](https://github.com/gfjaru/Kiko)，然后就是直接克隆到一个目录：
+物业管理师，其实是一种尊称，其规范的叫法是“物业管理员”。这个证书已经成为“过去式”了,以前是由国家人保部职业技能鉴定中心组织鉴定并颁发的。后来“人保部”不再组织物业鉴定了，这个证书也就成为“老黄历”了。
 
-```bash
-#克隆主题
-git clone https://github.com/gfjaru/Kiko
-cd Kiko
-#安装依赖并启动
-bundle install
-jekyll serve
-```
+以上就是关于物业管理证书的介绍，要了解更多的物业知识及学习课程请关注我。
 
-现在可以查看主题效果，之后就可以新建自己的GitHub Pages仓库了，假定用户名为 user，那么仓库的地址为https://github.com/user/user.github.io.好了现在可以开始了：
+微信：dawang5289
 
-```bash
-#移除之前克隆的 remote
-git remote remove origin
-#添加自己的 remote 
-git remote add origin https://github.com/user/user.github.io
-#更新
-git pull origin master
 
